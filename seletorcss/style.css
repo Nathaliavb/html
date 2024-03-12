@@ -1,0 +1,27 @@
+@charset "UTF8";
+/* tudo que é id no html vira # no css
+tudo que é class em html vira . no css*/
+body{
+    background-color: #a19573;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h1#first{
+    color: #443d28; 
+    text-align: center;
+    background-color:  #f7eecad8;
+}
+
+.principal{
+        color: #f7eecad8;
+        text-align: left;
+    }
+
+
+
+h2{
+    color: #5e5335;
+}
+p{
+   font-family:Georgia, 'Times New Roman', Times, serif
+}
