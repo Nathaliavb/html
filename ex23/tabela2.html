@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        width: 400px;
+        border-collapse: collapse;
+        position: relative;
+    }
+    td,th{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    thead>tr>th{
+        position: sticky;
+        top: -1px;
+        background-color: rgb(193, 140, 243);
+    }
+    caption{
+        font-size: 1em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: rgba(203, 176, 228, 0.74);
+        color:rgb(0, 0, 0)
+    }
+    thead, tfoot {
+        background-color: rgb(193, 140, 243);
+        color: rgb(252, 252, 252);
+    }
+    tbody>tr:nth-child(2n){
+        background-color: rgb(197, 158, 233);
+        font-weight: bold;
+    }
+</style>
+<body>
+    <!--ANATOMIA PARA TABELAS GRANDES
+        caption-legenda
+TABLE
+tr td th
+THEAD TBODY
+tr td th
+TFOOT
+tr td th
+ -->
+
+    <h1>Uso de tabelas grandes</h1> 
+
+    <table>
+        <caption>Populações das unidades federativas</caption>
+        <thead>
+    <tr>
+        <th scope="col">Estado</th>
+        <th scope="col">População</th>
+    </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>São Paulo</td>
+            <td>45 919 404</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td>21 817 490</td>
+        </tr>
+        <tr> 
+            <td>Rio de Janeiro</td>
+            <td>20 000 000</td>
+        </tr>
+        <tr>
+            <td>Belo Horizonte</td>
+            <td>17 000 000 </td>
+        </tr>
+        <tr>
+            <td>Santa Catarina</td>
+            <td>10 000 000</td>
+        </tr>
+        <tr>
+            <td>Brasilia df</td>
+            <td> 4 000 000</td>
+        </tr>
+        <tr>
+            <td>Paraíba</td>
+            <td>1 000 000</td>
+        </tr>
+        <tr>
+            <td>Brasilia df</td>
+            <td> 4 000 000</td>
+        <tr>
+            <td>Brasilia df</td>
+            <td> 4 000 000</td>
+        </tr>  
+        <tr>
+            <td>Brasilia df</td>
+            <td> 4 000 000</td>
+        </tr>  
+        <tr>
+            <td>Brasilia df</td>
+            <td> 4 000 000</td>
+        </tr> 
+        <tr>
+            <td>Brasilia df</td>
+            <td> 4 000 000</td>
+        </tr>  
+        <tr>
+            <td>Brasilia df</td>
+            <td> 4 000 000</td>
+        </tr>
+        <tr>
+            <td>Santa Catarina</td>
+            <td>10 000 000</td>
+        </tr>
+        <tr>
+            <td>Santa Catarina</td>
+            <td>10 000 000</td>
+        </tr>
+        <tr>
+            <td>Santa Catarina</td>
+            <td>10 000 000</td>
+        </tr>
+        <tr>
+            <td>Santa Catarina</td>
+            <td>10 000 000</td>
+        </tr>
+        <tr>
+            <td>Santa Catarina</td>
+            <td>10 000 000</td>
+        </tr>
+        <tr><td>Santa Catarina</td>
+            <td>10 000 000</td></tr>
+        </tbody>
+        <tfoot>
+
+        <th scope="row"> Total de Habitantes</th>
+        <td> 11100000</td>
+    </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
