@@ -6,6 +6,31 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Formulários de estados</h1>
+ <form action="">
+<fieldset>
+    <legend>Estados</legend>
+   <p><label for="iest">Estado:</label>
+    <select name="estado" id="iest">
+       <optgroup label="Sudeste"><option value="MG">Minas Gerais</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="SP">São Paulo</option></optgroup> 
+    </select></p> 
+</fieldset>
+<p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</p>   
+
+<p>
+    <label for="iprof">Profissão</label>
+    <input type="text" name="prof" id="iprof" list="lisprof">
+    <datalist id="lisprof">
+        <option value="EN">Engenheiro</option>
+        <option value="MD">Médico</option>
+        <option value="PROFI">Professor</option>
+    </datalist>
+</p>
+ </form>
 </body>
 </html>
